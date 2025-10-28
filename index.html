@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthySmile - Halloween Brush</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- p5.js -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <img src="assets/logo_hs.png" alt="Logo HealthySmile" class="logo">
+      <h1>HealthySmile – Halloween Brush 🎃</h1>
+    </header>
+
+    <div id="canvas-container"></div>
+
+    <footer>
+      <small>Laboratori HealthySmile – App interactiva educativa</small>
+    </footer>
+  </div>
+
+  <!-- Pantalla inicial -->
+  <div id="start-screen">
+    <h2>Benvingut/da al Laboratori HealthySmile 👻</h2>
+    <button id="start-btn">🕸️ Començar Experiència</button>
+  </div>
+
+  <!-- Pantalla de càrrega -->
+  <div id="loading-screen" class="hidden">
+    <div class="pumpkin-loader">🎃</div>
+    <p>Carregant el filtre màgic...</p>
+  </div>
+
+  <!-- Script de control de la UI -->
+  <script type="module" src="js/ui.js"></script>
+</body>
+</html>
